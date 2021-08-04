@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <title>Мастрелле</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <h1 class="logo"><img src="#" alt="logo" /></h1>
+        <button class="menu_btn"><img src="" alt="" /></button>
+
+        <ul class="menu">
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Чому ми?</a></li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+
+        <div class="header_btns">
+          <div class="social_icon_wrap">
+            <a
+              class="social_icon"
+              href="https://www.instagram.com/?hl=ru"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./img/instagram.svg" alt="instagram-icon"
+            /></a>
+            <a
+              class="social_icon"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./img/facebook.svg" alt="facebook-icon"
+            /></a>
+          </div>
+          <div class="form_wrap">
+            <a class="ukr_lenguage" href="#"><span>укр</span></a>
+            <a href="#"><span>pос</span></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first_section">
+        <h2>
+          Мастрелле флора плюс - <span>all inclusive</span> терапія молочниці
+        </h2>
+        <div class="packs_card_wrap">
+          <div class="packs_card">
+            <img class="first" src="./img/plus.png" alt="pack" />
+               <h3>Mastrelle flora plus вагінальний дущ</h3>
+              <div class="see_more_btn">
+                <a class="btn_link" href="./plus.html" target="_blank" rel="noopener noreferrer">Дізнатись більше</a>
+            </div>
+          </div>
+          <div class="packs_card">
+            <img class="second" src="./img/dush.png" alt="pack" />
+            <h3>Mastrelle flora plus вагінальні капсули</h3>
+              <div class="see_more_btn">
+                <a class="btn_link" href="./dush.html" target="_blank" rel="noopener noreferrer">Дізнатись більше</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="second_section">
+          <div class="statement_wrap">
+          <div class="statement"><p>Зручно: лише один раз на день</p></div>
+          <div class="statement"><p>Швидко усуває скарги при молочниці</p></div>
+          <div class="statement"><p>Якісно зроблено в ЄС</p></div>
+          <div class="statement"><p>Дозволено вагітним та годуючим</p></div>
+        </div>
+        </section>
+
+      <section class="second_section"></section>
+    </main>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
